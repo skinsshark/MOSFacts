@@ -1,0 +1,13 @@
+{
+  "name": "MOSFacts",
+  "version": "0.0.1",
+  "description": "Slackbot for fun facts",
+  "main": "app.js",
+  "author": "Sharon Zheng",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.x.x",
+    "body-parser": "^1.x.x",
+    "request": "2.56.x"
+  }
+}
