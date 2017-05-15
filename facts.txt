@@ -1,0 +1,8 @@
+MOSFET stands for Metal oxide semiconducter field effect transistor
+MOSFETS operate at higher switching speeds and lower currents compared to BJTs
+MOSFETS require a very small gate current. It is often negligible unless the drain current is relatively small as well
+In 2014, Intel shipped devices with MOSFETS the size of 14nm
+The MOSFET was invented by Dawon Kahng and Martin M. Atalla at Bell labs in 1959
+The MOSFET has three modes of operation: Cutoff, Triode, and Saturation
+If the gate and drain of the MOSFET are connected, it is operating in diode mode
+
