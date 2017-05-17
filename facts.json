@@ -1,7 +1,16 @@
 {
-  "facts": [
-    "oneoneoneone",
-    "twotwotwotwo",
-    "threethree"
+  "fact": [
+    "MOSFET stands for Metal Oxide Semiconductor Field Effect Transistor",
+    "MOSFETs operate at higher switching speeds and lower currents compared to BJTs",
+    "MOSFETs require a very small gate current. It is often negligible unless the drain current is relatively small as well",
+    "In 2014, Intel shipped devices with MOSFETs the size of 14nm",
+    "The MOSFET was invented by Dawon Kahng and Martin M. Atalla at Bell Labs in 1959",
+    "The MOSFET has three modes of operation: Cutoff, Triode, and Saturation",
+    "If the gate and drain of the MOSFET are connected, it is operating in diode mode",
+    "The Body terminal is the 4th terminal in a MOSFET, the other three are Gate, Drain, and Source",
+    "The Body Effect is modeled as a change in the Threshold voltage",
+    "The NMOS and PMOS are two common types of MOSFETs",
+    "For small signal AC analysis of a MOSFET, either the pi model or the T model can be used",
+    "In small signal AC analysis, a MOSFET is modelled as a voltage controlled current source"
   ]
 }

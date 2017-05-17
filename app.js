@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 
-var facts = require('./facts.json');
+var mos = require('./facts.json');
 
 var app = express();
 var port = process.env.PORT || 5000;
@@ -9,7 +9,7 @@ var port = process.env.PORT || 5000;
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.get('/', function(req, res) {
-  res.status(200).send(facts[1] + ' Hello WOrldd ' + facts);
+  res.status(200).send('Hello WOrld');
 });
 
 app.listen(port, function() {
@@ -18,12 +18,10 @@ app.listen(port, function() {
 
 app.post('/mosfetshaha', function(req, res, next) {
   var userName = req.body.user_name;
-  var randoFact = {
-    text: 'gate and base is same same but git diff'
-  };
+  var randoFactNum = Math.floor(Math.random() * mos.fact.length);
 
   if (userName !== 'slackbot') {
-    return res.status(200).json(randoFact);
+    return res.status(200).json(mos.fact[randoFactNum]);
   } else {
     return res.status(200).end();
   }
