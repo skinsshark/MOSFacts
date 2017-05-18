@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Slackbot for fun facts",
   "main": "app.js",
-  "author": "Sharon Zheng",
+  "author": "@skinsshark and @nine-inch-rails",
   "license": "MIT",
   "dependencies": {
     "express": "^4.x.x",
