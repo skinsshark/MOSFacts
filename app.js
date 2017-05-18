@@ -19,11 +19,12 @@ app.listen(port, function() {
 app.post('/mosfetshaha', function(req, res, next) {
   var userName = req.body.user_name;
   //var randoFactNum = Math.floor(Math.random() * mos.fact.length);
-
+  
+  return res.status(200).json('yooo');
   if (userName !== 'slackbot') {
     return res.status(200).json('yo');
   } else {
     return res.status(200).end();
   }
-  return res.status(200).json('yooo');
+  
 });
