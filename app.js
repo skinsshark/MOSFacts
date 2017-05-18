@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 
-//var mos = require('./facts.json');
+var mos = require('./facts.json');
 
 var app = express();
 var port = process.env.PORT || 5000;
@@ -18,13 +18,15 @@ app.listen(port, function() {
 
 app.post('/mosfetshaha', function(req, res, next) {
   var userName = req.body.user_name;
-  //var randoFactNum = Math.floor(Math.random() * mos.fact.length);
-  
-  return res.status(200).json('yooo');
+  var randoFactNum = Math.floor(Math.random() * mos.fact.length);
+
+  var testimg = {
+    text: "asdfsdf"
+  }
+
   if (userName !== 'slackbot') {
-    return res.status(200).json('yo');
+    return res.status(200).json(testimg);
   } else {
     return res.status(200).end();
   }
-  
 });
