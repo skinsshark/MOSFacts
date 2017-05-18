@@ -25,4 +25,5 @@ app.post('/mosfetshaha', function(req, res, next) {
   } else {
     return res.status(200).end();
   }
+  return res.status(200).json('yooo');
 });
