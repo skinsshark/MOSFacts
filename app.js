@@ -20,12 +20,12 @@ app.post('/mosfetshaha', function(req, res, next) {
   var userName = req.body.user_name;
   var randoFactNum = Math.floor(Math.random() * mos.fact.length);
 
-  var testimg = {
-    text: "asdfsdf"
-  }
+  var derulo = {
+    text: mos.fact[randoFactNum]
+  };
 
   if (userName !== 'slackbot') {
-    return res.status(200).json(testimg);
+    return res.status(200).json(derulo);
   } else {
     return res.status(200).end();
   }
