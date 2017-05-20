@@ -11,6 +11,14 @@
     "The Body Effect is modeled as a change in the Threshold voltage",
     "The NMOS and PMOS are two common types of MOSFETs",
     "For small signal AC analysis of a MOSFET, either the pi model or the T model can be used",
-    "In small signal AC analysis, a MOSFET is modelled as a voltage controlled current source"
+    "In small signal AC analysis, a MOSFET is modelled as a voltage controlled current source",
+    "The MOSFET has an oxide, Inversion Layer, Depletion layer, and bulk holes between the Gate and the Body",
+    "Current flows through an N-type channel in an NMOS and a P-type channel in a PMOS",
+    "The typical channel length of an NMOS ranges from 22nm to 5 um",
+    "The NMOS has a p-type substrate and the PMOS has an n-type substrate",
+    "The typical threshold voltage of an NMOS ranges from 0.3V to 1V",
+    "In the triode mode of operation, the MOSFET behaves like a linear resistor",   "Channel length modulation is an effect discovered by James Early. Hence, it is also called the Early effect",
+    "An ideal MOSFET has an infinite output resistance. In practice, this value is high but finite",
+    "Single electron MOSFETs have been proposed which take advantage of the effects of quantum tunnelling"
   ]
 }
