@@ -17,7 +17,8 @@
     "The typical channel length of an NMOS ranges from 22nm to 5 um",
     "The NMOS has a p-type substrate and the PMOS has an n-type substrate",
     "The typical threshold voltage of an NMOS ranges from 0.3V to 1V",
-    "In the triode mode of operation, the MOSFET behaves like a linear resistor",   "Channel length modulation is an effect discovered by James Early. Hence, it is also called the Early effect",
+    "In the triode mode of operation, the MOSFET behaves like a linear resistor", 
+    "Channel length modulation is an effect discovered by James Early. Hence, it is also called the Early effect",
     "An ideal MOSFET has an infinite output resistance. In practice, this value is high but finite",
     "Single electron MOSFETs have been proposed which take advantage of the effects of quantum tunnelling"
   ]
